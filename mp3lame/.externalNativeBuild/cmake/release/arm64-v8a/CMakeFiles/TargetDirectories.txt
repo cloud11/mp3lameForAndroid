@@ -1,0 +1,3 @@
+/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/mp3lame.dir

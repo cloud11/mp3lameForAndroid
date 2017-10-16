@@ -1,0 +1,165 @@
+
+{
+	"buildFiles" : [ "/Users/cloud/Documents/TestForMp3Lame/mp3lame/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/cloud/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"mp3lame-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "mp3lame",
+			"buildCommand" : "/Users/cloud/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64 --target mp3lame",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot  -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/native-lib.cpp",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/bitstream.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/encoder.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/fft.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/gain_analysis.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/id3tag.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/lame.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/mpglib_interface.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/newmdct.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/presets.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/psymodel.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/quantize.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/quantize_pvt.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/reservoir.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/set_get.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/tables.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/takehiro.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/util.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/vbrquantize.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/VbrTag.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/version.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/cloud/Library/Android/sdk/ndk-bundle/sysroot -Dmp3lame_EXPORTS -I../../../../src/main/jni/include -I../../../../src/main/jni/libmp3lame -I../../../../src/main/jni/libmp3lame/vector  -isystem /Users/cloud/Library/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -DHAVE_MEMCPY -DHAVE_STRCHR -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/src/main/jni/libmp3lame/vector/xmm_quantize_sub.c",
+					"workingDirectory" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/cloud/Documents/TestForMp3Lame/mp3lame/build/intermediates/cmake/release/obj/x86_64/libmp3lame.so",
+			"toolchain" : "9405195491747357582"
+		}
+	},
+	"toolchains" : 
+	{
+		"9405195491747357582" : 
+		{
+			"cCompilerExecutable" : "/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/cloud/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
